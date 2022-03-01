@@ -34,7 +34,6 @@ public class UsingDefault extends AAA implements StuInfo
 		UsingDefault u1=new UsingDefault();
 		u1.display();
 		
-
 	}
 
 }
