@@ -1,4 +1,5 @@
 package MiniProject;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -40,7 +41,8 @@ class BookStoreManagement
 			System.out.println("6. EXIT");
 			int ch = s.nextInt();
 
-			switch (ch) {
+			switch (ch) 
+			{
 			case 1:
 					System.out.println("Enter how many No of books you want to Add : ");
 					n = s.nextInt();
@@ -90,7 +92,8 @@ class Book1 extends BookManagement
 	Scanner s = new Scanner(System.in);
 	int i = 0, c = 0, r = 0;
 
-	Book1() {
+	Book1()
+	{
 		bookId = new int[10];
 		bookName = new String[10];
 		authorName = new String[10];

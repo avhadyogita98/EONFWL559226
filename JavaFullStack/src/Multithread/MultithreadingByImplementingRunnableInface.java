@@ -1,4 +1,4 @@
-package thread;
+package Multithread;
 
 class A1 extends Thread
 {
